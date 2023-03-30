@@ -1,0 +1,16 @@
+/*General styling elements for the text*/
+@font-face {
+  font-family: 'Bespoke';
+  src:
+    url('fonts/Bespoke-vtLighter.otf'), format('opentype');
+  font-style: normal;
+  font-weight: 100;
+}
+/*For header text*/
+  h1 {
+    
+  }
+/*For paragraph text*/
+  p{
+    font-family: 'Bespoke';
+ }
