@@ -1,16 +1,39 @@
+/*imports normalize*/
+@import "normalize.css";
 /*General styling elements for the text*/
 @font-face {
-  font-family: 'Bespoke';
+  font-family: 'Bespoke-Ajdy4sXJgc';
   src:
-    url('fonts/Bespoke-vtLighter.otf'), format('opentype');
+    url('../fonts/Bespoke-Ajdy4sXJgc.otf') format('opentype');
   font-style: normal;
-  font-weight: 100;
+  font-weight: normal;
 }
-/*For header text*/
-  h1 {
-    
+/*Formatting for text*/
+/*global*/
+  h1,h3,p {
+    font-family: 'Bespoke-Ajdy4sXJgc';  
   }
-/*For paragraph text*/
+  /*header only*/
+  h1{
+    color: white;
+    font-size: 4em;
+  }
+  h3{
+    color: rgb(128, 142, 179);
+  }
   p{
-    font-family: 'Bespoke';
- }
+    text-indent: 25px;
+  }
+/*formatting for header and sections*/
+header{
+  background-color: black;
+  padding: 20px;
+}
+section{
+  padding: 20px;
+}
+/*visual format for the line divider*/
+hr{
+  border: 2px solid black;
+  margin: 20px;
+}
